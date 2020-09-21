@@ -1,0 +1,7 @@
+"cohortName","ruleSequence","ruleName","cohortId"
+"hospitalized_with_influenza_diagnosis_or_positive_test_2017_2018",0,"does not have hospitalization for influenza in the 6 months preceding admission",2898
+"hospitalized_with_influenza_diagnosis_or_positive_test_and_ecmo_2017_2018",0,"does not have hospitalization for influenza in the 6 months preceding admission",2922
+"hospitalized_with_influenza_diagnosis_or_positive_test_and_requiring_intensive_services_2017_2018",0,"does not have hospitalization for influenza in the 6 months preceding admission",2884
+"hospitalized_with_influenza_diagnosis_or_positive_test_and_requiring_oxygen_2017_2018",0,"does not have hospitalization for influenza in the 6 months preceding admission",2933
+"with_a_covid_19_diagnosis_or_a_sarscov2_positive_test__deceased_",0,"Deceased",2934
+"with_influenza_diagnosis_or_positive_test_2017_2018__deaceased_",0,"Deceased",2935
