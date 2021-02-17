@@ -16,6 +16,8 @@ devtools::install_github("OHDSI/DatabaseConnectoR", ref="v3.0.0")
 devtools::install_github("OHDSI/CohortDiagnostics", ref="v1.1.1")
 devtools::install_github("OHDSI/SqlRender", ref="v1.6.8")
 devtools::install_github("OHDSI/Andromeda", ref="develop")
+devtools::install_github("Rstudio/fontawesome")
+
 
 # Load the package
 library(EmaCovidFeasibility)
@@ -50,7 +52,7 @@ databaseDescription <-
 # Specify te output folder
 #dir.create(file.path(getwd(),"output"))
 #outputFolder <- file.path(getwd(),"output")
-outputFolder <- 
+outputFolder <- "output1"
 
 # Use this to run the cohorttDiagnostics. The results will be stored in the diagnosticsExport subfolder of the outputFolder. This can be shared between sites.
 execute(
@@ -69,3 +71,8 @@ execute(
   runCohortDiagnostics = FALSE, # no need to run full cohort diagnostics for now
   minCellCount = 5
 )
+
+EmaCovidFeasibility:::prepareShinyData(outputFolder, dsNames = NULL, shinyDataFolder = file.path(getwd(),outputFolder,"shinyData"))
+
+EmaCovidFeasibility:::launchEvidenceExplorer(dataFolder = file.path(getwd(),outputFolder,"shinyData"))
+

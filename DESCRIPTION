@@ -6,9 +6,35 @@ Author: Martijn Schuemie [aut, cre]
 Maintainer: Martijn J. Schuemie <schuemie@ohdsi.org>
 Description: A skeleton package, to be used as a starting point when you just want to run cohort diagnostics.
 Depends:
-    DatabaseConnector (>= 2.2.0)
+    DatabaseConnector (>= 2.2.0),
+    dplyr,
+    stringr,
+    ggplot2,
+    tidyr,
+    purrr,
+    shiny,
+    readr,
+    shinydashboard,
+    DiagrammeR,
+    shinyWidgets,
+    gt,
+    readr,
+    DT
 Imports:
-	CohortDiagnostics
+	CohortDiagnostics,
+	dplyr,
+    stringr,
+    ggplot2,
+    tidyr,
+    purrr,
+    shiny,
+    readr,
+    shinydashboard,
+    DiagrammeR,
+    shinyWidgets,
+    gt,
+    readr,
+    DT
 Suggests:
     knitr,
     rmarkdown,
@@ -17,4 +43,4 @@ Suggests:
 License: Apache License 2.0
 VignetteBuilder: knitr
 LazyData: TRUE
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1

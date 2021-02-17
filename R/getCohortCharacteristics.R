@@ -20,13 +20,13 @@
 #' Computes features using all drugs, conditions, procedures, etc. observed on or prior to the cohort
 #' index date.
 #'
-#' @template Connection
+#' @param Connection connection
 #'
-#' @template CdmDatabaseSchema
+#' @param CdmDatabaseSchema cdmDatabaseSchema
 #'
-#' @template OracleTempSchema
+#' @param OracleTempSchema OracleTempSchema
 #'
-#' @template CohortTable
+#' @param CohortTable CohortTable
 #'
 #' @param cohortId            The cohort definition ID used to reference the cohort in the cohort
 #'                            table.
