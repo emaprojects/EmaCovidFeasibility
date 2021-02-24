@@ -1,0 +1,1 @@
+This section shows the distribution of available observation time before and after the index date for patients in a given cohort.

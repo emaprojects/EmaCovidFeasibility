@@ -1,0 +1,5 @@
+Report No.1 provides a high-level understanding of eight databases from seven European countries, with a good distribution across Europe. We describe these databases in terms of data quality and completeness, effort to use and the applicability to test different research objectives. All databases are part of the OHDSI community and have applied a common data model (CDM) or are currently in the process of standardizing their data to a CDM.  
+
+This app contains results from an analytical package that characterises a selection of cohorts validated as part of the [Charybdis project](https://data.ohdsi.org/Covid19CharacterisationCharybdis/ ) and  was shared with the data partners who ran the package and then the results were shared again with the central site (IQVIA). If errors were found or additional data needs collection, the package was amended and resent.
+
+The analytical code used can be found [here](https://github.com/emaprojects/EmaCovidFeasibility).

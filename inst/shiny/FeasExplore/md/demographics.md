@@ -1,0 +1,1 @@
+This section shows the age and gender distribution of patients in a given cohort.

@@ -1,0 +1,1 @@
+This section shows the proportion of patients recorded as deceased at any time.
