@@ -1,4 +1,8 @@
 # # Make sure to install all dependencies (not needed if already done):
+# install.packages("shiny")
+# install.packages("shinydashboard")
+# install.packages("DiagrammeR")
+# install.packages("shinyWidgets")
 # install.packages("SqlRender")
 # install.packages("DatabaseConnector")
 # install.packages("ggplot2")
