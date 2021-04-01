@@ -26,8 +26,7 @@ UNION  select c.concept_id
 
 ) E ON I.concept_id = E.concept_id
 WHERE E.concept_id is null
-) C;
-INSERT INTO #Codesets (codeset_id, concept_id)
+) C UNION ALL 
 SELECT 1 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
   select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (45757528,4262075)
@@ -38,8 +37,7 @@ UNION  select c.concept_id
   and c.invalid_reason is null
 
 ) I
-) C;
-INSERT INTO #Codesets (codeset_id, concept_id)
+) C UNION ALL 
 SELECT 2 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
   select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (44789502,37392948,37394408,36676235,3001703,3016424,3038149,3016676,3017256,3020370,2213094,2213181,2213063,2213062,40757077,40756898,4039357,37392223,44806470,37394297,4044987,4039358,37392224,44807860,37394300,4044988,37392761,40653953,40655680,40655681,40655682,40655683,40655684,40655685,40655686,37080282,40655687,40655688,40655689,40655690,4047171,40655691,40484560,3002988,3002646,3003682)
@@ -61,8 +59,8 @@ UNION  select c.concept_id
 
 ) E ON I.concept_id = E.concept_id
 WHERE E.concept_id is null
-) C;
-
+) C
+;
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as
 (

@@ -1,0 +1,15 @@
+2020-09-09 09:19:46	[Main thread]	INFO	EmaCovidFeasibility	execute	Creating cohorts
+2020-09-09 09:19:50	[Main thread]	FATAL	DatabaseConnector	.createErrorReport	Error: Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: schema "study_reference" does not exist; An error report has been created at  /home/ctorre/EmaCovid19/EmaCovidFeasibility/errorReportSql.txt 
+2020-09-09 09:20:18	[Main thread]	INFO	EmaCovidFeasibility	execute	Creating cohorts
+2020-09-09 09:33:22	[Main thread]	INFO	EmaCovidFeasibility	execute	Running characterization
+2020-09-09 09:33:29	[Main thread]	INFO	FeatureExtraction		Sending temp tables to server
+2020-09-09 09:33:49	[Main thread]	INFO	FeatureExtraction		Constructing features on server
+2020-09-09 09:45:28	[Main thread]	INFO	FeatureExtraction		Fetching data from server
+2020-09-09 09:46:15	[Main thread]	INFO	FeatureExtraction		Fetching data took 47 secs
+2020-09-09 09:46:22	[Main thread]	INFO	EmaCovidFeasibility	getCohortCharacteristics	Temporal Cohort characterization took 13 mins
+2020-09-09 09:46:24	[Main thread]	INFO	FeatureExtraction		Sending temp tables to server
+2020-09-09 09:46:25	[Main thread]	INFO	FeatureExtraction		Constructing features on server
+2020-09-09 09:49:40	[Main thread]	INFO	FeatureExtraction		Fetching data from server
+2020-09-09 09:49:47	[Main thread]	INFO	FeatureExtraction		Fetching data took 6.77 secs
+2020-09-09 09:49:54	[Main thread]	INFO	EmaCovidFeasibility	getCohortCharacteristics	Temporal Cohort characterization took 3.53 mins
+2020-09-09 09:49:54	[Main thread]	INFO	EmaCovidFeasibility	execute	Running database analysis

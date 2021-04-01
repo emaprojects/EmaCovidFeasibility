@@ -27,7 +27,7 @@
 			{
 				"Criteria" : {
 					"Measurement" : {
-						"CodesetId" : 1,
+						"CodesetId" : 6,
 						"MeasurementTypeExclude" : false
 					}
 				},
@@ -51,7 +51,7 @@
 						"Coeff" : 1
 					},
 					"UseIndexEnd" : true,
-					"UseEventEnd" : false
+					"UseEventEnd" : true
 				},
 				"RestrictVisit" : false,
 				"IgnoreObservationPeriod" : false,
@@ -326,33 +326,8 @@
 	},
 	"ConceptSets" : [
 		{
-			"id" : 1,
-			"name" : "SARS-CoV-2 positive test measurement pre-coordinated",
-			"expression" : {
-				"items" : [
-					{
-						"concept" : {
-							"CONCEPT_ID" : 3.731028e+07,
-							"CONCEPT_NAME" : "2019 novel coronavirus detected",
-							"STANDARD_CONCEPT" : "N",
-							"STANDARD_CONCEPT_CAPTION" : "Non-Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1240581000000104",
-							"DOMAIN_ID" : "Measurement",
-							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Clinical Finding"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					}
-				]
-			}
-		},
-		{
 			"id" : 2,
-			"name" : "SARS-CoV-2 test measurement",
+			"name" : "[EMA COVID19] SARS-CoV-2 test measurement",
 			"expression" : {
 				"items" : [
 					{
@@ -394,7 +369,7 @@
 		},
 		{
 			"id" : 4,
-			"name" : "COVID-19 conditions",
+			"name" : "[EMA COVID19] COVID-19 conditions",
 			"expression" : {
 				"items" : [
 					{
@@ -470,7 +445,7 @@
 		},
 		{
 			"id" : 5,
-			"name" : "Inpatient Visit",
+			"name" : "[EMA COVID19] Inpatient Visit",
 			"expression" : {
 				"items" : [
 					{
@@ -502,6 +477,31 @@
 							"DOMAIN_ID" : "Visit",
 							"VOCABULARY_ID" : "Visit",
 							"CONCEPT_CLASS_ID" : "Visit"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					}
+				]
+			}
+		},
+		{
+			"id" : 6,
+			"name" : "[EMA COVID19] SARS-CoV-2 positive test measurement pre-coordinated",
+			"expression" : {
+				"items" : [
+					{
+						"concept" : {
+							"CONCEPT_ID" : 3.731028e+07,
+							"CONCEPT_NAME" : "2019 novel coronavirus detected",
+							"STANDARD_CONCEPT" : "N",
+							"STANDARD_CONCEPT_CAPTION" : "Non-Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1240581000000104",
+							"DOMAIN_ID" : "Measurement",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,

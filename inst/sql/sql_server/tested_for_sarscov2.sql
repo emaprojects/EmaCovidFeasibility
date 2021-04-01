@@ -15,8 +15,8 @@ UNION  select c.concept_id
   and c.invalid_reason is null
 
 ) I
-) C;
-
+) C
+;
 
 with primary_events (event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id) as
 (

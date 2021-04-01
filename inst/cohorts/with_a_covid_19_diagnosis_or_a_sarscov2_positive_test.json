@@ -4,16 +4,6 @@
 		"CriteriaList" : [
 			{
 				"Measurement" : {
-					"CodesetId" : 1,
-					"OccurrenceStartDate" : {
-						"Value" : "2019-12-01",
-						"Op" : "gt"
-					},
-					"MeasurementTypeExclude" : false
-				}
-			},
-			{
-				"Measurement" : {
 					"CodesetId" : 2,
 					"OccurrenceStartDate" : {
 						"Value" : "2019-12-01",
@@ -201,31 +191,6 @@
 	},
 	"ConceptSets" : [
 		{
-			"id" : 1,
-			"name" : "SARS-CoV-2 positive test measurement pre-coordinated",
-			"expression" : {
-				"items" : [
-					{
-						"concept" : {
-							"CONCEPT_ID" : 3.731028e+07,
-							"CONCEPT_NAME" : "2019 novel coronavirus detected",
-							"STANDARD_CONCEPT" : "N",
-							"STANDARD_CONCEPT_CAPTION" : "Non-Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1240581000000104",
-							"DOMAIN_ID" : "Measurement",
-							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Clinical Finding"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					}
-				]
-			}
-		},
-		{
 			"id" : 2,
 			"name" : "SARS-CoV-2 test measurement",
 			"expression" : {
@@ -318,23 +283,6 @@
 							"DOMAIN_ID" : "Condition",
 							"VOCABULARY_ID" : "SNOMED",
 							"CONCEPT_CLASS_ID" : "Clinical Finding"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 3.731106e+07,
-							"CONCEPT_NAME" : "Suspected disease caused by 2019-nCoV",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "840544004",
-							"DOMAIN_ID" : "Observation",
-							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Context-dependent"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,

@@ -1,0 +1,18 @@
+2020-08-24 08:56:25	[Main thread]	INFO	EmaCovidFeasibility	execute	Creating cohorts
+2020-08-24 09:37:23	[Main thread]	INFO	EmaCovidFeasibility	execute	Running characterization
+2020-08-24 09:43:20	[Main thread]	FATAL	EmaCovidFeasibility	getCohortCharacteristics	Error: 'isTemporalCovariateData' is not an exported object from 'namespace:FeatureExtraction' 
+2020-08-24 10:12:26	[Main thread]	INFO	EmaCovidFeasibility	execute	Creating cohorts
+2020-08-24 10:49:31	[Main thread]	INFO	EmaCovidFeasibility	execute	Running characterization
+2020-08-24 10:50:31	[Main thread]	FATAL	EmaCovidFeasibility	getCohortCharacteristics	Error: 'isTemporalCovariateData' is not an exported object from 'namespace:FeatureExtraction' 
+2020-08-24 10:52:07	[Main thread]	INFO	EmaCovidFeasibility	execute	Running characterization
+2020-08-24 10:52:10	[Main thread]	INFO	FeatureExtraction		Sending temp tables to server
+2020-08-24 10:52:11	[Main thread]	INFO	FeatureExtraction		Constructing features on server
+2020-08-24 10:54:01	[Main thread]	INFO	FeatureExtraction		Fetching data from server
+2020-08-24 10:54:08	[Main thread]	INFO	FeatureExtraction		Fetching data took 6.97 secs
+2020-08-24 10:54:11	[Main thread]	INFO	EmaCovidFeasibility	getCohortCharacteristics	Temporal Cohort characterization took 2.05 mins
+2020-08-24 10:54:12	[Main thread]	INFO	FeatureExtraction		Sending temp tables to server
+2020-08-24 10:54:12	[Main thread]	INFO	FeatureExtraction		Constructing features on server
+2020-08-24 11:01:03	[Main thread]	INFO	FeatureExtraction		Fetching data from server
+2020-08-24 11:01:07	[Main thread]	INFO	FeatureExtraction		Fetching data took 4.21 secs
+2020-08-24 11:01:10	[Main thread]	INFO	EmaCovidFeasibility	getCohortCharacteristics	Temporal Cohort characterization took 6.98 mins
+2020-08-24 11:01:11	[Main thread]	INFO	EmaCovidFeasibility	execute	Running database analysis

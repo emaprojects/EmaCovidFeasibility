@@ -1,0 +1,13 @@
+2020-08-24 13:57:14	[Main thread]	INFO	EmaCovidFeasibility	execute	Creating cohorts
+2020-08-24 14:14:57	[Main thread]	INFO	EmaCovidFeasibility	execute	Running characterization
+2020-08-24 14:14:58	[Main thread]	INFO	FeatureExtraction		Sending temp tables to server
+2020-08-24 14:15:00	[Main thread]	INFO	FeatureExtraction		Constructing features on server
+2020-08-24 14:22:26	[Main thread]	INFO	FeatureExtraction		Fetching data from server
+2020-08-24 14:22:51	[Main thread]	INFO	FeatureExtraction		Fetching data took 25.2 secs
+2020-08-24 14:22:58	[Main thread]	INFO	EmaCovidFeasibility	getCohortCharacteristics	Temporal Cohort characterization took 8.02 mins
+2020-08-24 14:23:00	[Main thread]	INFO	FeatureExtraction		Sending temp tables to server
+2020-08-24 14:23:01	[Main thread]	INFO	FeatureExtraction		Constructing features on server
+2020-08-24 14:27:21	[Main thread]	INFO	FeatureExtraction		Fetching data from server
+2020-08-24 14:27:28	[Main thread]	INFO	FeatureExtraction		Fetching data took 6.17 secs
+2020-08-24 14:27:34	[Main thread]	INFO	EmaCovidFeasibility	getCohortCharacteristics	Temporal Cohort characterization took 4.61 mins
+2020-08-24 14:27:35	[Main thread]	INFO	EmaCovidFeasibility	execute	Running database analysis
