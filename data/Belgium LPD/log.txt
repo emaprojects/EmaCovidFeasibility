@@ -1,8 +1,0 @@
-2020-08-24 11:52:37	[Main thread]	INFO	EmaCovidFeasibility	execute	Creating cohorts
-2020-08-24 12:07:38	[Main thread]	INFO	EmaCovidFeasibility	execute	Running characterization
-2020-08-24 12:07:44	[Main thread]	INFO	FeatureExtraction		Sending temp tables to server
-2020-08-24 12:08:16	[Main thread]	INFO	FeatureExtraction		Constructing features on server
-2020-08-24 12:21:12	[Main thread]	INFO	FeatureExtraction		Fetching data from server
-2020-08-24 12:22:03	[Main thread]	INFO	FeatureExtraction		Fetching data took 50.7 secs
-2020-08-24 12:22:10	[Main thread]	INFO	EmaCovidFeasibility	getCohortCharacteristics	Temporal Cohort characterization took 14.5 mins
-2020-08-24 12:22:10	[Main thread]	INFO	EmaCovidFeasibility	execute	Running database analysis
