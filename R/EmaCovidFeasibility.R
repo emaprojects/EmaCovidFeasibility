@@ -180,6 +180,15 @@ execute <- function(
     
     ParallelLogger::logInfo("Running cohort diagnostics")
     
+    outputFolderDiagnostics <-  file.path(outputFolder, "diagnostics")
+    
+    if (!file.exists(outputFolderDiagnostics))
+      dir.create(outputFolderDiagnostics, recursive = TRUE)
+    
+    for(f in list.files(outputFolder,"cohort*",full.names = T)){
+      file.copy(f,outputFolderDiagnostics)
+    }
+    
     CohortDiagnostics::runCohortDiagnostics(
       packageName = "EmaCovidFeasibility",
       connectionDetails = connectionDetails,
@@ -187,8 +196,8 @@ execute <- function(
       oracleTempSchema = oracleTempSchema,
       cohortDatabaseSchema = cohortDatabaseSchema,
       cohortTable = cohortTable,
-      inclusionStatisticsFolder = outputFolder,
-      exportFolder = file.path(outputFolder, "diagnosticsExport"),
+      inclusionStatisticsFolder = outputFolderDiagnostics,
+      exportFolder = file.path(outputFolderDiagnostics, "diagnosticsExport"),
       databaseId = databaseId,
       databaseName = databaseName,
       databaseDescription = databaseDescription,
